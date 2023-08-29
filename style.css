@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*
+{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+#navbar
+{
+position:sticky;
+margin:0px;
+padding:0px;
+box-shadow:5px 5px 20px rgba(0,0,0,.5);
+}
+.navbar .navbar-brand
+{
+font-size:25px;
+font-weight:800;
+}
+#navbarSupportedContent a
+{
+color:#fff;
+border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover
+{
+border-bottom:2px solid #fff;
+}
+#navbarSupportedContent button
+{
+background-color:#fff;
+width:5rem;
+border-radius:15rem;
+}
+.head{
+    background-color:darkgreen;
+    color:black;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+#home>h1
+{
+background-color:#b30000;
+display:flex;
+margin:0px;
+padding:10px;
+justify-content:center;
+align-items:center;
+letter-spacing:3px;
+font-size:100px;
+text-shadow:0px 1px 0px #ccc;
+}
+#Home>img
+{
+backgroud-image:url("../image/spicesbg.jpg");
+background-size:cover;
+background-position:cover;
+}
+
+.card>img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transform: scale(1);
+    }
+    .card:hover
+    {
+      transform:scale(1.05);
+      cursor:pointer;
+    }
+.header
+{
+    color: darkmagenta;
+    text-align: center;
+}
+.jumbotron
+{
+    color: darkmagenta;
+    text-align: center;
+}
+.images>img
+{
+    width: 400%;
+    height: 600px;
+}
+
+
+
+
+ 
